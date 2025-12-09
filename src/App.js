@@ -1,16 +1,20 @@
 import logo from "./logo.png";
 import "./App.css";
+import Dictionary from "./Dictionary";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>Some text here</p>
-        <a href="/" className="btn btn-primary">
-          A Button
-        </a>
-      </header>
+      <div className="Container">
+        <header className="App-header">
+          <h1>Look it up</h1>
+          <p>Some text here</p>
+        </header>
+        <main>
+          <Dictionary />
+        </main>
+        <footer className="App-footer">Coded by Suzanna</footer>
+      </div>
     </div>
   );
 }
