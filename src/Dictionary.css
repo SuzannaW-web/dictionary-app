@@ -2,4 +2,9 @@
   font-family: "Playfair Display", serif;
   font-weight: 700;
   text-align: left;
+  font-size: 60px;
+}
+h3.phonetics {
+  font-family: "Playfair Display", serif;
+  text-align: left;
 }
