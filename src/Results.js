@@ -2,10 +2,6 @@ import React from "react";
 import Meaning from "./Meaning";
 
 export default function Results(props) {
-  if (!props.results) return null;
-
-  const definitionCount = props.results.meanings.length;
-
   if (props.results) {
     return (
       <div className="Results">
