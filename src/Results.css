@@ -80,3 +80,26 @@ h3.phonetics {
 .ToggleButton:hover {
   background: var(--color-primary-light);
 }
+
+/* Responsive for mobile */
+@media (max-width: 768px) {
+  .SearchInput {
+    width: 14rem;
+    padding: 0.5rem 0.75rem;
+    font-size: 0.9rem;
+  }
+
+  .SearchButton {
+    padding: 0.5rem 0.75rem;
+    font-size: 0.9rem;
+  }
+
+  .container {
+    margin-top: 1rem;
+  }
+
+  .Results,
+  .Photos {
+    margin-top: 0.5rem;
+  }
+}
